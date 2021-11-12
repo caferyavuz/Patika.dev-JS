@@ -11,6 +11,7 @@ showTime();
 setInterval(showTime,1000);
 
 function showTime(){
+    
 let minutes= new Date().getMinutes();
 let seconds= new Date().getSeconds();
 let hours= new Date().getHours();
@@ -33,5 +34,4 @@ let dateTime=`${hours}:${minutes}:${seconds} ${days[day-1]}`
 
 let myClock = document.querySelector("#myClock");
 myClock.innerHTML=dateTime;
-
 }

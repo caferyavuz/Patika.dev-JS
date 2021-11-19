@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+/* Gövde */
+.container{
+  width: 70%;
+  margin-left: 15%;
+  height: 937px;
+}
+
+/* Eleman ekleme bölümü */
+.addItems{
+  background-color: orange;
+  height: 30%;
+}
+/* Eleman text alanı*/
+#listItem{
+  margin-top: 5%;
+  height: 50px;
+  width: 70%;
+  margin-left: 5%;
+  font-size: 20px;
+  border: none;
+}
+/* Eleman btn alanı*/
+#listItemBtn{
+  height: 52px;
+  width: 20%;
+  font-size: 20px;
+  border: none;
+  background-color:#E3E3E3 ;
+}
+
+#listItemBtn:hover{
+  background-color:#D6D6D6 ;
+  cursor: pointer;
+}
+
+/* ToDoList Elemanları*/
+.getItems ul{
+  list-style: none;
+  display:inline;
+}
+
+.getItems ul li{
+  font-size: 25px;
+  background-color:#E3E3E3;
+  height: 50px;
+}
+
+.getItems ul li:nth-child(even){
+  background-color:#D6D6D6
+}
+.getItems ul li p{
+  margin-left: 5%;
+  padding-top: 10px;
+}
+
+.deleteItem{
+  height: auto;
+  margin-right: 20px;
+  float: right;
+}
+.deleteItem:hover{
+  color: red;
+  cursor: pointer;
+}
+
+/* TOAST */
+#toast{
+  font-size: 16px;
+  width:300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+}

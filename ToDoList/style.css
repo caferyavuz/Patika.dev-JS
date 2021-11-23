@@ -54,7 +54,7 @@
 
 .getItems ul li.checked{
   text-decoration: line-through;
-  background-color: #FA7676;
+  /*background-color: #FA7676;*/
   color: white;
 }
 
